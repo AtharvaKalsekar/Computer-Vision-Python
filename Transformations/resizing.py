@@ -1,7 +1,7 @@
 import cv2
 import numpy as np
 
-img=cv2.imread('mark.jpg')
+img = cv2.imread('mark.jpg')
 
 zoom_out=cv2.resize(img,None,fx=0.5,fy=0.5,interpolation=cv2.INTER_AREA)
 cv2.imshow('Zoom out',zoom_out)
