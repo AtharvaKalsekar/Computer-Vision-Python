@@ -23,7 +23,8 @@ def transform(img):
     cv2.imshow('Warped',warped)
     cv2.waitKey()
 
-img=cv2.imread('contours.jpg')
+img=cv2.imread('/home/atharva/Downloads/OPENCV COURSE/Experimental images/pipes-1.jpg')
+#img=cv2.imread('contours.jpg')
 cv2.namedWindow('Original')
 cv2.setMouseCallback('Original',onClick)
 cv2.imshow('Original',img)
